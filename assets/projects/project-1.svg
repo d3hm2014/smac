@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0f1318"/>
+      <stop offset="100%" stop-color="#202938"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0%" stop-color="#c89f4a"/>
+      <stop offset="100%" stop-color="#e4c271"/>
+    </linearGradient>
+  </defs>
+  <rect fill="url(#bg)" width="1600" height="900"/>
+  <rect x="120" y="180" width="520" height="420" rx="18" fill="#d8dde6"/>
+  <rect x="690" y="120" width="290" height="480" rx="18" fill="#c6ccd7"/>
+  <rect x="1010" y="240" width="420" height="360" rx="18" fill="#b7bfcd"/>
+  <rect x="120" y="600" width="1310" height="18" fill="url(#gold)"/>
+  <circle cx="260" cy="160" r="38" fill="#e4c271" opacity=".9"/>
+  <text x="120" y="760" fill="#ffffff" font-family="Arial" font-size="60" font-weight="700">مشروع مبنى إداري وتجاري</text>
+  <text x="120" y="830" fill="#d7dbe2" font-family="Arial" font-size="34">واجهة تمثيلية توضح مكان صورة المشروع الفعلية</text>
+</svg>
