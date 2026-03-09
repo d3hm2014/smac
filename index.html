@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SMAC | مؤسسة سعيد بن محمد بن سعد القحطاني للمقاولات المعمارية العامة</title>
-  <meta name="description" content="موقع احترافي لمؤسسة سعيد بن محمد بن سعد القحطاني للمقاولات المعمارية العامة. خدمات المقاولات العامة، الخرسانة، العزل، المساحة، إصلاح المنشآت، والمعدات الثقيلة." />
+  <meta name="description" content="موقع احترافي لمؤسسة سعيد بن محمد بن سعد القحطاني للمقاولات المعمارية العامة." />
   <meta name="theme-color" content="#0f1318" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,11 +14,11 @@
 <body>
   <div class="topbar">
     <div class="container topbar-wrap">
-      <span>SMAC</span>
+      <div class="topbar-left">
+        <span>SMAC</span><span class="divider"></span><span>مقاولات معمارية عامة</span>
+      </div>
       <div class="topbar-links">
-        <a href="mailto:info@example.com">info@example.com</a>
-        <span>•</span>
-        <a href="tel:0500000000">0500000000</a>
+        <a href="mailto:info@example.com">info@example.com</a><span class="divider"></span><a href="tel:0500000000">0500000000</a>
       </div>
     </div>
   </div>
@@ -26,27 +26,18 @@
   <header class="site-header">
     <div class="container nav">
       <a href="#home" class="brand">
-        <span class="brand-mark">
-          <span class="mark-line"></span>
-          <span class="mark-text">SMAC</span>
-        </span>
-        <span class="brand-copy">
-          <strong>مؤسسة سعيد بن محمد بن سعد القحطاني</strong>
-          <small>للمقاولات المعمارية العامة</small>
-        </span>
+        <span class="brand-mark"><span class="mark-text">SMAC</span></span>
+        <span class="brand-copy"><strong>مؤسسة سعيد بن محمد بن سعد القحطاني</strong><small>للمقاولات المعمارية العامة</small></span>
       </a>
-
       <button class="menu-toggle" aria-label="فتح القائمة">☰</button>
-
       <nav class="nav-links">
         <a href="#about">من نحن</a>
         <a href="#services">الخدمات</a>
-        <a href="#strength">نقاط القوة</a>
         <a href="#projects">المشاريع</a>
-        <a href="#documents">الاعتمادات</a>
+        <a href="#certifications">الاعتمادات</a>
+        <a href="#why-us">لماذا نحن</a>
         <a href="#contact">تواصل</a>
       </nav>
-
       <a class="nav-cta" href="#contact">طلب عرض سعر</a>
     </div>
   </header>
@@ -56,240 +47,120 @@
       <div class="container hero-grid">
         <div class="hero-copy">
           <p class="eyebrow">مقاولات معمارية عامة</p>
-          <h1>شريك تنفيذ يعتمد على الجودة، الانضباط، والجاهزية الميدانية.</h1>
-          <p class="hero-text">
-            نقدم خدمات المقاولات العامة والهندسة المدنية بأسلوب عمل يركز على
-            دقة التنفيذ، جودة المخرجات، السلامة المهنية، وإدارة المشروع بشكل
-            منظم من بداية النطاق وحتى التسليم.
-          </p>
-
+          <h1>واجهة شركة تبدو كبيرة، مرتبة، وتعرف كيف تبيع نفسها.</h1>
+          <p class="hero-text">نقدم خدمات المقاولات العامة والهندسة المدنية بأسلوب عمل يركز على دقة التنفيذ، جودة المخرجات، السلامة المهنية، والانضباط في إدارة المشروع من بداية النطاق حتى التسليم النهائي.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#contact">اطلب عرضاً فنياً</a>
             <a class="btn btn-secondary" href="Test.pdf" target="_blank" rel="noopener">تحميل الملف التعريفي</a>
           </div>
-
           <div class="hero-stats">
-            <article>
-              <strong>+100</strong>
-              <span>موظف وفني</span>
-            </article>
-            <article>
-              <strong>67</strong>
-              <span>آلة ومعدة تقريباً</span>
-            </article>
-            <article>
-              <strong>متنوع</strong>
-              <span>نطاق أعمال وخدمات</span>
-            </article>
+            <article><strong>+100</strong><span>موظف وفني</span></article>
+            <article><strong>67</strong><span>آلة ومعدة تقريباً</span></article>
+            <article><strong>متعدد</strong><span>خدمات تشغيلية وهندسية</span></article>
           </div>
         </div>
-
-        <aside class="hero-side">
-          <div class="hero-card">
-            <div class="card-chip">القطاعات الرئيسية</div>
-            <h3>تنفيذ فعلي وليس عرضاً تجميلياً</h3>
+        <aside class="hero-panel">
+          <div class="panel-card">
+            <span class="card-chip">ملف موثوق</span>
+            <h3>ما الذي يجعل الشركة تبدو أقوى؟</h3>
             <ul class="feature-list">
-              <li>المقاولات العامة والتشييد</li>
-              <li>أعمال الخرسانة والشوتكريت</li>
-              <li>العزل المائي وأنظمة الأسطح</li>
-              <li>الرفع المساحي والخدمات الفنية</li>
-              <li>إصلاح المنشآت الخرسانية</li>
-              <li>المعدات الثقيلة والدعم الميداني</li>
+              <li>عرض مشاريع بأسماء وصور واضحة</li>
+              <li>إبراز المعايير والجودة والسلامة</li>
+              <li>هيكل خدمات مرتب لا مزدحم</li>
+              <li>رسائل ثقة ووضوح في الهوية</li>
             </ul>
           </div>
-
-          <div class="mini-panel">
-            <span>جاهز للنشر على GitHub Pages</span>
-            <strong>وقابل للتحويل لاحقاً إلى موقع رسمي بدومين خاص</strong>
-          </div>
+          <div class="mini-highlight"><span>نسخة Premium</span><strong>جاهزة للرفع على GitHub Pages مباشرة</strong></div>
         </aside>
       </div>
     </section>
 
     <section class="trust-strip">
       <div class="container trust-wrap">
-        <span>جودة</span>
-        <span>سلامة</span>
-        <span>التزام</span>
-        <span>انضباط موقعي</span>
-        <span>جاهزية تشغيلية</span>
+        <span>جودة</span><span>سلامة</span><span>موثوقية</span><span>جاهزية ميدانية</span><span>التزام تنفيذي</span>
       </div>
     </section>
 
     <section class="section" id="about">
       <div class="container">
         <div class="section-head split">
-          <div>
-            <p class="eyebrow">من نحن</p>
-            <h2>الهوية التي يجب أن تظهر في موقع شركة مقاولات محترمة</h2>
-          </div>
-          <p class="section-text">
-            مؤسسة سعيد بن محمد بن سعد القحطاني للمقاولات المعمارية العامة تعمل في
-            مجال المقاولات والهندسة المدنية، وتركز على تنفيذ المشاريع وفق معايير واضحة
-            في الجودة والسلامة وسرعة الإنجاز، مع تنوع في الخدمات والمساندة الميدانية.
-          </p>
+          <div><p class="eyebrow">من نحن</p><h2>صياغة أقوى من الملف التقليدي</h2></div>
+          <p class="section-text">مؤسسة سعيد بن محمد بن سعد القحطاني للمقاولات المعمارية العامة تعمل في مجال المقاولات والهندسة المدنية، مع تركيز على الجودة، السلامة، سرعة الإنجاز، وتقديم نطاق خدمات متكامل يخدم المشاريع من أكثر من زاوية تنفيذية.</p>
         </div>
-
-        <div class="about-grid">
-          <article class="info-card">
-            <span class="card-kicker">الرؤية</span>
-            <h3>أن نكون جهة تنفيذ موثوقة</h3>
-            <p>بمستوى احترافي يعكس الجدية في التنفيذ والانضباط في تسليم الأعمال.</p>
-          </article>
-          <article class="info-card">
-            <span class="card-kicker">الرسالة</span>
-            <h3>تنفيذ فعال وفق المواصفات</h3>
-            <p>مع إدارة جيدة للنطاق، الوقت، الجودة، والاحتياج الفعلي للمشروع.</p>
-          </article>
-          <article class="info-card">
-            <span class="card-kicker">القيم</span>
-            <h3>جودة، نزاهة، سلامة</h3>
-            <p>واحترام العميل، مع متابعة ميدانية حقيقية بدلاً من الوعود النظرية.</p>
-          </article>
+        <div class="grid-3">
+          <article class="glass-card"><span class="label">الرؤية</span><h3>أن نكون جهة تنفيذ موثوقة</h3><p>بمستوى احترافي يعكس الجدية في الإنجاز والانضباط في تسليم الأعمال.</p></article>
+          <article class="glass-card"><span class="label">الرسالة</span><h3>تنفيذ منظم وفق المواصفات</h3><p>مع إدارة جيدة للنطاق والوقت والجودة والاحتياج الفعلي للمشروع.</p></article>
+          <article class="glass-card"><span class="label">القيم</span><h3>جودة، نزاهة، سلامة</h3><p>واحترام العميل، مع متابعة ميدانية حقيقية لا مجرد كلام تسويقي.</p></article>
         </div>
       </div>
     </section>
 
     <section class="section soft" id="services">
       <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">الخدمات</p>
-          <h2>عرض الخدمات بطريقة تبيع، لا بطريقة تكدّس نصوص</h2>
-        </div>
-
+        <div class="section-head"><p class="eyebrow">الخدمات</p><h2>خدمات مرتبة بشكل يرفع قيمة الشركة بصرياً</h2></div>
         <div class="services-grid">
-          <article class="service-card">
-            <span class="service-number">01</span>
-            <h3>المقاولات العامة</h3>
-            <p>تنفيذ أعمال المباني والهياكل والطرق والجسور والأعمال المرتبطة بالمشاريع المدنية.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">02</span>
-            <h3>الخدمات المساحية</h3>
-            <p>رفع طبوغرافي، مسح أراضٍ، خرائط، وخدمات فنية للمشاريع المدنية والميكانيكية.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">03</span>
-            <h3>العزل المائي</h3>
-            <p>حلول عزل للأسطح والتطبيقات المرتبطة بها بخيارات عملية وعمر تشغيلي طويل.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">04</span>
-            <h3>أعمال الخرسانة</h3>
-            <p>صب، تشطيب، قوالب، تسليح، وتجهيزات التنفيذ للبنية التحتية والمنشآت المختلفة.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">05</span>
-            <h3>إصلاح المنشآت الخرسانية</h3>
-            <p>معالجة التدهور والعيوب ورفع العمر التشغيلي للمنشآت بنهج وقائي وتصحيحي.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">06</span>
-            <h3>المعدات الثقيلة</h3>
-            <p>تجهيزات ومساندة ميدانية تخدم مواقع التنفيذ وتقلل الاعتماد على أطراف متعددة.</p>
-          </article>
+          <article class="service-card"><span class="service-number">01</span><h3>المقاولات العامة</h3><p>تنفيذ أعمال المباني والهياكل والطرق والجسور والأعمال المدنية المرتبطة بها.</p></article>
+          <article class="service-card"><span class="service-number">02</span><h3>الخدمات المساحية</h3><p>رفع طبوغرافي، مسح أراضٍ، خرائط، وخدمات فنية للمشاريع المدنية والميكانيكية.</p></article>
+          <article class="service-card"><span class="service-number">03</span><h3>العزل المائي</h3><p>حلول عزل للأسطح والتطبيقات المرتبطة بها بخيارات عملية وعمر تشغيلي طويل.</p></article>
+          <article class="service-card"><span class="service-number">04</span><h3>أعمال الخرسانة</h3><p>صب وتشطيب وقوالب وتسليح وتجهيزات تنفيذ للبنية التحتية والمنشآت المختلفة.</p></article>
+          <article class="service-card"><span class="service-number">05</span><h3>إصلاح المنشآت الخرسانية</h3><p>معالجة التدهور والعيوب ورفع العمر التشغيلي للمنشآت بنهج وقائي وتصحيحي.</p></article>
+          <article class="service-card"><span class="service-number">06</span><h3>المعدات الثقيلة</h3><p>تجهيزات ومساندة ميدانية تخدم مواقع التنفيذ وتقلل الاعتماد على أطراف متعددة.</p></article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="strength">
-      <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">نقاط القوة</p>
-          <h2>هذا القسم مهم لأنه يجيب سؤال العميل: لماذا أتعامل معكم؟</h2>
-        </div>
-
-        <div class="strength-grid">
-          <article class="strength-card">
-            <h3>تركيز على الجودة</h3>
-            <p>مخرجات تنفيذية مبنية على المواصفات لا على الاجتهادات العشوائية.</p>
-          </article>
-          <article class="strength-card">
-            <h3>اهتمام بالسلامة</h3>
-            <p>إجراءات تشغيل ومتابعة تقلل المخاطر وترفع الانضباط داخل الموقع.</p>
-          </article>
-          <article class="strength-card">
-            <h3>تنوع خدمات</h3>
-            <p>تغطية من المساحة إلى الخرسانة والعزل والإصلاح والمعدات.</p>
-          </article>
-          <article class="strength-card">
-            <h3>جاهزية ميدانية</h3>
-            <p>كوادر ومعدات تسمح بمرونة أكبر في تنفيذ الأعمال وتنسيقها.</p>
-          </article>
-        </div>
-
-        <div class="process-box">
-          <div class="process-head">
-            <p class="eyebrow">آلية العمل</p>
-            <h2>كيف يمكن عرض منهج التنفيذ بشكل احترافي</h2>
-          </div>
-          <div class="process-steps">
-            <article><strong>01</strong><span>دراسة المتطلبات ونطاق المشروع</span></article>
-            <article><strong>02</strong><span>التجهيز الفني والموقعي</span></article>
-            <article><strong>03</strong><span>التنفيذ والمتابعة</span></article>
-            <article><strong>04</strong><span>الفحص والتسليم</span></article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section dark" id="projects">
-      <div class="container">
-        <div class="section-head light">
-          <p class="eyebrow">المشاريع</p>
-          <h2>هيكل مشاريع بصرياً أفضل بكثير من النسخة السابقة</h2>
-          <p class="section-text light-text">ضع هنا مشاريع حقيقية، لأن هذا أكثر قسم يرفع الثقة ويختصر الكلام كله.</p>
-        </div>
-
-        <div class="projects-grid">
-          <article class="project-card">
-            <div class="project-label">مشروع 01</div>
-            <h3>اسم المشروع</h3>
-            <p>المدينة، نوع المشروع، نطاق الأعمال، والمدة الزمنية بشكل مختصر.</p>
-          </article>
-          <article class="project-card">
-            <div class="project-label">مشروع 02</div>
-            <h3>اسم المشروع</h3>
-            <p>أضف صورة لاحقاً لهذا المشروع ليصبح القسم فعلياً مقنعاً.</p>
-          </article>
-          <article class="project-card">
-            <div class="project-label">مشروع 03</div>
-            <h3>اسم المشروع</h3>
-            <p>يمكن تحويل هذا القسم لاحقاً إلى معرض مشاريع كامل بصور قبل وبعد.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section soft" id="documents">
+    <section class="section" id="projects">
       <div class="container">
         <div class="section-head split">
-          <div>
-            <p class="eyebrow">الاعتمادات</p>
-            <h2>مكان واضح للشهادات والوثائق</h2>
-          </div>
-          <p class="section-text">
-            حالياً القسم مهيأ بصرياً. الخطوة الصحيحة لاحقاً: وضع صور واضحة وحديثة للشهادات السارية فقط.
-          </p>
+          <div><p class="eyebrow">المشاريع</p><h2>أسماء وصور مشاريع داخل الموقع</h2></div>
+          <p class="section-text">أضفت صوراً تمثيلية جذابة وأسماء مشاريع بصياغة مناسبة. استبدل الصور لاحقاً بصور الأعمال الحقيقية، لأن هذه النقطة تفرق فعلاً.</p>
         </div>
+        <div class="project-showcase">
+          <article class="project-card">
+            <img src="assets/projects/project-1.svg" alt="مشروع مبنى إداري وتجاري" />
+            <div class="project-body"><div class="project-meta"><span>مشروع 01</span><span>مباني</span></div><h3>مشروع مبنى إداري وتجاري</h3><p>تنفيذ أعمال إنشائية ومعمارية لمبنى متعدد الاستخدامات مع متطلبات جودة وتشطيب عالية.</p></div>
+          </article>
+          <article class="project-card">
+            <img src="assets/projects/project-2.svg" alt="مشروع بنية تحتية وطرق" />
+            <div class="project-body"><div class="project-meta"><span>مشروع 02</span><span>بنية تحتية</span></div><h3>مشروع بنية تحتية وطرق</h3><p>أعمال تجهيز وتنفيذ مرتبطة بالطرق والمناطق المفتوحة والخدمات المدنية المساندة.</p></div>
+          </article>
+          <article class="project-card">
+            <img src="assets/projects/project-3.svg" alt="مشروع عزل وإصلاح منشآت" />
+            <div class="project-body"><div class="project-meta"><span>مشروع 03</span><span>إصلاح وعزل</span></div><h3>مشروع عزل وإصلاح منشآت</h3><p>حلول عزل ومعالجة وترميم فني لرفع كفاءة المنشآت وإطالة عمرها التشغيلي.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        <div class="docs-grid">
-          <article class="doc-card">
-            <h3>السجل التجاري</h3>
-            <p>أضف نسخة حديثة وواضحة.</p>
-          </article>
-          <article class="doc-card">
-            <h3>شهادة منشآت</h3>
-            <p>اعرضها كملف أو صورة منفصلة.</p>
-          </article>
-          <article class="doc-card">
-            <h3>الزكاة والضريبة</h3>
-            <p>ضع النسخة السارية فقط.</p>
-          </article>
-          <article class="doc-card">
-            <h3>التأمينات الاجتماعية</h3>
-            <p>حدّثها باستمرار حتى لا يظهر الموقع قديماً.</p>
-          </article>
+    <section class="section dark" id="certifications">
+      <div class="container">
+        <div class="section-head light split">
+          <div><p class="eyebrow">الاعتمادات</p><h2>قسم شهادات يعطي انطباع مؤسسة منظمة</h2></div>
+          <p class="section-text light-text">أضفت بطاقات ISO بصيغة تصميمية كأماكن جاهزة. لا تعرضها كاعتماد فعلي إلا إذا كانت الشركة حاصلة عليها فعلاً وتضع رقم الشهادة والجهة المانحة.</p>
+        </div>
+        <div class="iso-grid">
+          <article class="iso-card"><img src="assets/badges/iso9001.svg" alt="ISO 9001" /><div><h3>ISO 9001</h3><p>نظام إدارة الجودة</p></div></article>
+          <article class="iso-card"><img src="assets/badges/iso14001.svg" alt="ISO 14001" /><div><h3>ISO 14001</h3><p>الإدارة البيئية</p></div></article>
+          <article class="iso-card"><img src="assets/badges/iso45001.svg" alt="ISO 45001" /><div><h3>ISO 45001</h3><p>السلامة والصحة المهنية</p></div></article>
+        </div>
+        <div class="note-box"><strong>مهم:</strong> هذه البطاقات أضفتها كعناصر تصميمية مؤقتة. استبدلها بالشهادات الفعلية فقط إن كانت الشركة معتمدة بها.</div>
+      </div>
+    </section>
+
+    <section class="section soft" id="why-us">
+      <div class="container">
+        <div class="section-head"><p class="eyebrow">لماذا نحن</p><h2>عناصر ثقة تضخم الصورة الذهنية للشركة بشكل مقنع</h2></div>
+        <div class="grid-4">
+          <article class="trust-card"><h3>هيكل خدمات متكامل</h3><p>وجود أكثر من خدمة تنفيذية يعطي انطباع شركة أكبر وأكثر جاهزية.</p></article>
+          <article class="trust-card"><h3>تركيز على الجودة</h3><p>عرض الجودة بوضوح يرفع الثقة خاصة عند العملاء المؤسسيين.</p></article>
+          <article class="trust-card"><h3>لغة بصرية قوية</h3><p>الواجهة النظيفة والمرتبة تبني الانطباع قبل قراءة التفاصيل.</p></article>
+          <article class="trust-card"><h3>مشاريع وصور واعتمادات</h3><p>هذا الثلاثي هو أقوى شيء يجعل الموقع يبدو كبيراً وموثوقاً.</p></article>
+        </div>
+        <div class="metrics-band">
+          <article><strong>جاهزية</strong><span>تشغيلية</span></article>
+          <article><strong>تنفيذ</strong><span>منظم</span></article>
+          <article><strong>سلامة</strong><span>وجودة</span></article>
+          <article><strong>صورة</strong><span>احترافية</span></article>
         </div>
       </div>
     </section>
@@ -299,30 +170,14 @@
         <div class="cta-box">
           <div class="cta-copy">
             <p class="eyebrow">تواصل معنا</p>
-            <h2>النسخة الآن أقرب لموقع شركة فعلي</h2>
-            <p>
-              المتبقي فقط هو استبدال البيانات الافتراضية ببيانات المؤسسة الحقيقية،
-              وإضافة الشعار الرسمي، والمشاريع الفعلية، ثم رفعه على GitHub Pages أو دومين خاص.
-            </p>
+            <h2>الموقع الآن أقوى بكثير بصرياً</h2>
+            <p>بقي فقط استبدال البريد والجوال والمدينة وإضافة صور المشاريع الحقيقية والشعار الرسمي. بعدها سيرتفع المستوى من “موقع مرتب” إلى “واجهة شركة محترمة”.</p>
           </div>
-
           <div class="contact-grid">
-            <article class="contact-item">
-              <span>البريد الإلكتروني</span>
-              <strong>info@example.com</strong>
-            </article>
-            <article class="contact-item">
-              <span>رقم الجوال</span>
-              <strong>0500000000</strong>
-            </article>
-            <article class="contact-item">
-              <span>المدينة</span>
-              <strong>أضف المدينة</strong>
-            </article>
-            <article class="contact-item">
-              <span>البروفايل</span>
-              <a href="Test.pdf" target="_blank" rel="noopener">فتح الملف التعريفي</a>
-            </article>
+            <article class="contact-item"><span>البريد الإلكتروني</span><strong>info@example.com</strong></article>
+            <article class="contact-item"><span>رقم الجوال</span><strong>0500000000</strong></article>
+            <article class="contact-item"><span>المدينة</span><strong>أضف المدينة</strong></article>
+            <article class="contact-item"><span>البروفايل</span><a href="Test.pdf" target="_blank" rel="noopener">فتح الملف التعريفي</a></article>
           </div>
         </div>
       </div>
@@ -331,16 +186,8 @@
 
   <footer class="site-footer">
     <div class="container footer-wrap">
-      <div>
-        <strong>SMAC</strong>
-        <p>مؤسسة سعيد بن محمد بن سعد القحطاني للمقاولات المعمارية العامة</p>
-      </div>
-      <div class="footer-nav">
-        <a href="#about">من نحن</a>
-        <a href="#services">الخدمات</a>
-        <a href="#projects">المشاريع</a>
-        <a href="#contact">تواصل</a>
-      </div>
+      <div><strong>SMAC</strong><p>مؤسسة سعيد بن محمد بن سعد القحطاني للمقاولات المعمارية العامة</p></div>
+      <div class="footer-nav"><a href="#about">من نحن</a><a href="#projects">المشاريع</a><a href="#certifications">الاعتمادات</a><a href="#contact">تواصل</a></div>
     </div>
   </footer>
 
